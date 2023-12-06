@@ -1,0 +1,19 @@
+/*
+ * main.c
+ *
+ *  Created on: Dec 6, 2023
+ *      Author: kamal
+ */
+
+#include"stdio.h"
+int main()
+{
+	float n1, n2, p;
+	printf("Enter two numbers: ");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%f %f", &n1, &n2);
+	p = n1 * n2;
+	printf("product: %f\n", p);
+}
+
